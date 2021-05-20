@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-02T15:18:26 CST" name="Default suite" finished-at="2021-01-02T15:25:11 CST" duration-ms="405005">
+    <groups>
+    </groups>
+    <test started-at="2021-01-02T15:18:26 CST" name="Default test" finished-at="2021-01-02T15:25:11 CST" duration-ms="405005">
+      <class name="com.Basic.Selenium.firstSeleniumProjectjQuery">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:18:26 CST" name="setup" finished-at="2021-01-02T15:18:32 CST" duration-ms="6071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Droppable()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:18:32 CST" name="Droppable" finished-at="2021-01-02T15:18:46 CST" duration-ms="13500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Droppable -->
+        <test-method signature="Interactions_Draggable()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:18:46 CST" name="Interactions_Draggable" finished-at="2021-01-02T15:19:03 CST" duration-ms="16690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Interactions_Draggable -->
+        <test-method signature="Resizable()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:19:03 CST" name="Resizable" finished-at="2021-01-02T15:19:26 CST" duration-ms="23162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resizable -->
+        <test-method signature="Selectable()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:19:26 CST" name="Selectable" finished-at="2021-01-02T15:19:54 CST" duration-ms="28766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectable -->
+        <test-method signature="Sortable()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:19:54 CST" name="Sortable" finished-at="2021-01-02T15:20:21 CST" duration-ms="26407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sortable -->
+        <test-method signature="Widgets_Accordion()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:20:21 CST" name="Widgets_Accordion" finished-at="2021-01-02T15:20:38 CST" duration-ms="17239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Widgets_Accordion -->
+        <test-method signature="iFramesLinksNumber()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:20:38 CST" name="iFramesLinksNumber" finished-at="2021-01-02T15:21:13 CST" duration-ms="34603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iFramesLinksNumber -->
+        <test-method signature="Autocomplete()[pri:8, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:21:13 CST" name="Autocomplete" finished-at="2021-01-02T15:21:29 CST" duration-ms="16072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Autocomplete -->
+        <test-method signature="Button()[pri:9, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:21:29 CST" name="Button" finished-at="2021-01-02T15:21:50 CST" duration-ms="21071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Button -->
+        <test-method signature="Checkboxradio()[pri:10, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:21:50 CST" name="Checkboxradio" finished-at="2021-01-02T15:23:09 CST" duration-ms="79528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkboxradio -->
+        <test-method signature="Controlgroup()[pri:11, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:23:09 CST" name="Controlgroup" finished-at="2021-01-02T15:23:24 CST" duration-ms="14673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Controlgroup -->
+        <test-method signature="Datepicker()[pri:12, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:23:24 CST" name="Datepicker" finished-at="2021-01-02T15:23:36 CST" duration-ms="11918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Datepicker -->
+        <test-method signature="Dialog()[pri:13, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:23:36 CST" name="Dialog" finished-at="2021-01-02T15:23:52 CST" duration-ms="16524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dialog -->
+        <test-method signature="Menu()[pri:14, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:23:52 CST" name="Menu" finished-at="2021-01-02T15:24:02 CST" duration-ms="9472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu -->
+        <test-method signature="Selectmenu()[pri:15, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:24:02 CST" name="Selectmenu" finished-at="2021-01-02T15:24:09 CST" duration-ms="6791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectmenu -->
+        <test-method signature="Slider()[pri:16, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:24:09 CST" name="Slider" finished-at="2021-01-02T15:24:23 CST" duration-ms="13813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Slider -->
+        <test-method signature="Spinner()[pri:17, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:24:23 CST" name="Spinner" finished-at="2021-01-02T15:24:42 CST" duration-ms="19340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Spinner -->
+        <test-method signature="Tabs()[pri:18, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:24:42 CST" name="Tabs" finished-at="2021-01-02T15:24:57 CST" duration-ms="15107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tabs -->
+        <test-method signature="Tooltip()[pri:19, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:24:57 CST" name="Tooltip" finished-at="2021-01-02T15:25:10 CST" duration-ms="13102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tooltip -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Basic.Selenium.firstSeleniumProjectjQuery@5c90e579]" started-at="2021-01-02T15:25:10 CST" name="close" finished-at="2021-01-02T15:25:11 CST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.Basic.Selenium.firstSeleniumProjectjQuery -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
