@@ -20,6 +20,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class firstSeleniumProjectjQuery {
 	private WebDriver driver;
@@ -27,7 +28,14 @@ public class firstSeleniumProjectjQuery {
 	@BeforeClass
 	private void setup() {
 		// set up steps to prepare selenium
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/browserDrivers/chromedriver.exe");
+	//	System.setProperty("webdriver.chrome.driver", "src/test/resources/browserDrivers/chromedriver.exe");
+		
+		WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();
+	//	options.addArguments("--headless");
+		driver = new ChromeDriver(options);
+		
+		
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
